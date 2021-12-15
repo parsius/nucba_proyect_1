@@ -88,6 +88,11 @@ section{
     
 }
 
+#tercer_section{
+    background-color: white;
+    height: 100vh;
+}
+
 .container{
     
     width: 100%;
@@ -108,10 +113,21 @@ section{
 #texto{
     height: 60%;
     width: 40%;
-   margin-top: 0%;
+    margin-top: 0%;
+    
     font-weight: bold;
     border-radius: 20px;
 
+}
+
+.fondo_transparente{
+    position: absolute;
+    top:13%;
+    height: 85%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.4;
+    z-index: -1;
 }
 
 #texto h3{
